@@ -1,0 +1,36 @@
+{
+  "name": "simple-zip",
+  "version": "1.0.0",
+  "description": "A simple JSON object compressor because I couldn't find one",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scull7/simple-zip.git"
+  },
+  "keywords": [
+    "zip",
+    "compress",
+    "json"
+  ],
+  "author": "Nathan A Sculli <scull7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scull7/simple-zip/issues"
+  },
+  "homepage": "https://github.com/scull7/simple-zip#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0",
+    "must": "^0.13.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "ramda": "^0.22.1"
+  }
+}
